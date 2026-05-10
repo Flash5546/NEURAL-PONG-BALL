@@ -1,0 +1,19 @@
+{
+  "name": "neural-pong-elata",
+  "private": true,
+  "version": "1.0.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@elata-biosciences/rppg-web": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vite-plugin-wasm": "^3.3.0",
+    "vite-plugin-top-level-await": "^1.4.1"
+  }
+}
